@@ -23,3 +23,4 @@ export async function POST(request: Request) {
     );
   }
 }
+const BACKEND_URL = process.env.PYTHON_BACKEND_URL || 'https://[YOUR_RUNPOD_URL]';
