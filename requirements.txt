@@ -1,0 +1,11 @@
+demucs
+spleeter
+openai-whisper
+librosa
+scipy
+pedalboard
+pyrubberband
+pydub
+numpy
+fastapi
+uvicorn
