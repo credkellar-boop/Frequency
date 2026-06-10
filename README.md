@@ -1,4 +1,4 @@
-![Profile Image](./logo.png)
+![Profile Image](./IMG_0387.png)
 # 🎛️ Frequency
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
