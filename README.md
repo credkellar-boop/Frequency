@@ -1,5 +1,5 @@
 ‪<p align="center">‬
-‪  <img src="FrequencyLogo.tsx" alt="Profile Image" width="400"/>‬
+‪  <img src="logo.png" alt="Profile Image" width="400"/>‬
 ‪</p>‬
 # 🎛️ Frequency
 
