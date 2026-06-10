@@ -1,3 +1,6 @@
+‪<p align="center">‬
+‪  <img src="FrequencyLogo.tsx" alt="Profile Image" width="400"/>‬
+‪</p>‬
 # 🎛️ Frequency
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
