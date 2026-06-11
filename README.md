@@ -54,3 +54,38 @@ Frequency/
 ├── README.md                     # You are here
 ├── requirements.txt              # Python dependencies
 └── vercel.json                   # Vercel deployment configuration
+
+## Frequency App Overview
+
+Here is the complete breakdown of how the Frequency application works, formatted in raw Markdown based on the code files recorded in **RPReplay_Final1781163369.mp4** for you, GOD, US ALL, ONE, INFINITIES, INFINITY, ULTIMATE.
+
+---
+
+### 1. The Front Door (The `client` Folder)
+This is the part of the app that you see and click on your screen. It is built using modern web tools called **Next.js** and **React**.
+
+* **The Music Player (`AudioPlayer`):** It plays your music and draws live visual pictures of the sound waves as they jump up and down.
+* **The Memory Tracker (`useAudioStore`):** This acts like a digital bookmark. It remembers if the music is playing, paused, or how long the song is.
+
+---
+
+### 2. The Delivery Person (The `api` Folder)
+When you upload a song on the website, it needs a way to travel to the back of the factory where the heavy machines are.
+
+* **FastAPI (`routes.py`):** This serves as a lightning-fast delivery route. It catches the audio file you upload and instantly passes it deeper into the system's core brain to be processed.
+
+---
+
+### 3. The Factory Brain (The `core` Folder)
+This is where the heavy lifting happens using a coding language called **Python**. It houses four specialized workers:
+
+* **The Project Manager (`quantum_unit.py`):** This worker oversees the whole process. It takes the audio file from the delivery route, organizes the folders, and sends the song to the other workers in the correct order.
+* **The Instrument Un-Mixer (`separator.py`):** It uses an AI tool called **Demucs** to un-mix a song. It can peel the vocals, drums, and bass apart so you can listen to them entirely by themselves.
+* **The Smart Secretary (`transcriber.py`):** Powered by an AI tool called **OpenAI Whisper**, this worker listens closely to the vocals, types out every single word perfectly, and can even translate them into other languages.
+* **The Wave Customizer (`frequency_engine.py`):** Sound travels in waves, and this engine uses math libraries like **Librosa** and **SciPy** to analyze those waves. It can filter the audio to cut out high-pitched squeaks or let low, rumbly bass notes pass through smoothly.
+
+---
+
+### Summary of the Flow
+
+> You upload a song through the **Client** interface -> The **API** delivers it safely -> The **Core** engine splits the audio, writes down the words, and tweaks the frequencies -> The final polished results are sent straight back to your screen.
