@@ -1,23 +1,22 @@
-FROM golang:1.23-alpine AS builder
-RUN apk add --no-cache git build-base ca-certificates
+FROM python:3.11-slim
+
+# Install system dependencies (ffmpeg is usually required for audio/DSP processing)
+RUN apt-get update && apt-get install -y \
+    ffmpeg \
+    gcc \
+    python3-dev \
+    && rm -rf /var/lib/apt/lists/*
+
 WORKDIR /app
 
+# Copy all project files into the container
 COPY . .
 
-# DEBUG: This prints every file Docker actually copied so you can see what is missing
-RUN echo "=== AVAILABLE FILES ===" && ls -R && echo "======================="
-
-RUN if [ ! -f go.mod ]; then \
-        go mod init credkellar/frequency && \
-        go mod tidy; \
-    else \
-        go mod tidy; \
+# Automatically install dependencies if a requirements.txt file exists
+RUN if [ -f requirements.txt ]; then \
+        pip install --no-cache-dir -r requirements.txt; \
     fi
 
-RUN CGO_ENABLED=0 GOOS=linux go build -ldflags="-s -w" -o frequency ./...
-
-FROM alpine:3.19 AS runner
-RUN apk add --no-cache ca-certificates tzdata
-WORKDIR /app
-COPY --from=builder /app/frequency .
-ENTRYPOINT ["./frequency"]
+# Set the default script to execute
+# (Change "file_handler.py" to whichever script boots up your backend server)
+CMD ["python", "file_handler.py"]
