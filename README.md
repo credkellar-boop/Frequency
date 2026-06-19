@@ -89,3 +89,10 @@ This is where the heavy lifting happens using a coding language called **Python*
 ### Summary of the Flow
 
 > You upload a song through the **Client** interface -> The **API** delivers it safely -> The **Core** engine splits the audio, writes down the words, and tweaks the frequencies -> The final polished results are sent straight back to your screen.
+
+## Donations
+
+(To buy full subscription of business structure, strip codes, ampilify and create public repo)
+
+## Monad
+0xE7512f65508306Dc669Ef232Bcb31A8Aacd73A37
