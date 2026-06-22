@@ -9,6 +9,7 @@
 [![Docker Pulls](https://img.shields.io/docker/pulls/credkellar/frequency)](https://hub.docker.com/r/credkellar/frequency)
 [![Next.js](https://img.shields.io/badge/Next.js-black?logo=next.js&logoColor=white)](https://nextjs.org/)
 [![FastAPI](https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
+<img src="https://komarev.com/ghpvc/?username=credkellar-boop" alt="Profile Views"
 
 **Frequency** is the ultimate AI-powered audio ecosystem. It seamlessly dissects, transcribes, and translates music while performing precision frequency analysis and manipulation. From real-time stem separation and MIDI extraction to automated pitch correction and studio-grade DSP, it turns raw audio into actionable data.
 
