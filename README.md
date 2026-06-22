@@ -1,5 +1,6 @@
 ![Profile Image](./IMG_0387.png)
 # 🎛️ Frequency
+<img src="https://komarev.com/ghpvc/?username=credkellar-boop" alt="Profile Views"
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![GitHub stars](https://img.shields.io/github/stars/credkellar-boop/Frequency?style=social)](https://github.com/credkellar-boop/Frequency/stargazers)
@@ -9,7 +10,6 @@
 [![Docker Pulls](https://img.shields.io/docker/pulls/credkellar/frequency)](https://hub.docker.com/r/credkellar/frequency)
 [![Next.js](https://img.shields.io/badge/Next.js-black?logo=next.js&logoColor=white)](https://nextjs.org/)
 [![FastAPI](https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
-<img src="https://komarev.com/ghpvc/?username=credkellar-boop" alt="Profile Views"
 
 **Frequency** is the ultimate AI-powered audio ecosystem. It seamlessly dissects, transcribes, and translates music while performing precision frequency analysis and manipulation. From real-time stem separation and MIDI extraction to automated pitch correction and studio-grade DSP, it turns raw audio into actionable data.
 
