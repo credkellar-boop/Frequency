@@ -1,6 +1,5 @@
 ![Profile Image](./IMG_0387.png)
 # 🎛️ Frequency
-<img src="https://komarev.com/ghpvc/?username=credkellar-boop" alt="Profile Views"
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![GitHub stars](https://img.shields.io/github/stars/credkellar-boop/Frequency?style=social)](https://github.com/credkellar-boop/Frequency/stargazers)
